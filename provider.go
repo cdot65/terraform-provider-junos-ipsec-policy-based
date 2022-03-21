@@ -126,6 +126,7 @@ func Provider() *schema.Provider {
 			"junos-ipsec-policy-based_SecurityPoliciesPolicyPolicyName": junosSecurityPoliciesPolicyPolicyName(),
 			"junos-ipsec-policy-based_SecurityPoliciesPolicyPolicyMatchSource__Address": junosSecurityPoliciesPolicyPolicyMatchSource__Address(),
 			"junos-ipsec-policy-based_SecurityPoliciesPolicyPolicyMatchDestination__Address": junosSecurityPoliciesPolicyPolicyMatchDestination__Address(),
+			"junos-ipsec-policy-based_SecurityPoliciesPolicyPolicyMatchApplication": junosSecurityPoliciesPolicyPolicyMatchApplication(),
 			"junos-ipsec-policy-based_SecurityPoliciesPolicyPolicyThenPermitTunnelIpsec__Vpn": junosSecurityPoliciesPolicyPolicyThenPermitTunnelIpsec__Vpn(),
 			"junos-ipsec-policy-based_commit": junosCommit(),
 	        "junos-ipsec-policy-based_destroycommit": junosDestroyCommit(),
